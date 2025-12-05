@@ -10,7 +10,7 @@
           log_level = "debug";
 
           processes = {
-	    hydra-tui-alice = {
+            hydra-tui-alice = {
               working_dir = "./";
               command = pkgs.writeShellApplication {
                 name = "alice-tui";
