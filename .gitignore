@@ -2,3 +2,4 @@ result*
 dist-newstyle/
 devnet/
 .env
+blockfrost-project.txt
