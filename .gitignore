@@ -1,5 +1,6 @@
 result*
 dist-newstyle/
-devnet/
+peers/*/*
+run/*/*
 .env
 blockfrost-project.txt

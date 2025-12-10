@@ -1,10 +1,10 @@
 {
-  description = "hydra-blockfrost-browser-demo";
+  description = "hydra-blockfrost-demo";
 
   inputs = {
     flake-parts.url = "github:hercules-ci/flake-parts";
     hydra-coding-standards.url = "github:cardano-scaling/hydra-coding-standards/0.7.1";
-    hydra.url = "github:cardano-scaling/hydra/1.1.0";
+    hydra.url = "github:cardano-scaling/hydra/1.2.0";
     import-tree.url = "github:vic/import-tree";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
     process-compose-flake.url = "github:Platonic-Systems/process-compose-flake";
@@ -25,5 +25,4 @@
     ];
     allow-import-from-derivation = true;
   };
-
 }

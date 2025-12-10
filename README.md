@@ -1,1 +1,8 @@
-# hydra-blockfrost-browser-demo
+# hydra-blockfrost-demo
+
+
+### Running
+
+```
+nix run .#rpi
+```
