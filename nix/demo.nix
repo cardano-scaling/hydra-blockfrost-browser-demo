@@ -13,7 +13,7 @@ _:
           log_location = "run/logs/process-compose.log";
           log_level = "debug";
           processes = {
-            hydra-tui-alice = {
+            hydra-tui = {
               working_dir = "./";
               command = pkgs.writeShellApplication {
                 name = "tui";

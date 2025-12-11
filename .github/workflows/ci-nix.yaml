@@ -24,4 +24,4 @@ jobs:
 
     - name: "Can we build the demo?"
       run: |
-        nix build .#alice
+        nix build .#rpi
