@@ -37,6 +37,9 @@ peers = [ "noon" ]; # List of peers you wish to connect to from your "./peers" f
 ...
 ```
 
+And, finally, you of course need a blockfrost project key in a file named
+`blockfrost-project.txt`.
+
 
 ### Running
 
