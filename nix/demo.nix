@@ -2,8 +2,8 @@ _:
 {
   perSystem = { pkgs, ... }:
     let
-      networkName = "preview";
-      networkMagic = "2";
+      publicIp = "10.0.0.30";
+      hydraPort = "5001";
       peers = [ "noon" ];
     in
     {
@@ -52,7 +52,8 @@ _:
                   ''
                     ${pkgs.hydra-node}/bin/hydra-node \
                       --node-id rpi \
-                      --listen 127.0.0.1:5001 \
+                      --listen 127.0.0.1:${hydraPort} \
+                      --advertise ${publicIp}:${hydraPort} \
                       --api-port 4001 \
                       --monitoring-port 6001 \
                       --hydra-signing-key ../../credentials/hydra.sk \
