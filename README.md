@@ -46,3 +46,17 @@ And, finally, you of course need a blockfrost project key in a file named
 ```
 nix run .#rpi -- --theme "Catppuccin Latte"
 ```
+
+### Trivia
+
+This project is expected to be run with a companion hydra-node somewhere else.
+For this purpose you may enjoy
+[cardano-scaling/hydra-head-process-compose](https://github.com/cardano-scaling/hydra-head-process-compose)
+which defines a process-compose-based hydra-node setup through but this time
+using the cardano-node.
+
+
+### Screenshots
+
+![](./screenshots/pi-with-blockfrost.png)
+![](./screenshots/photo-evidence.png)
