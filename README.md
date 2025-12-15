@@ -117,3 +117,6 @@ hydra_head_tx_confirmation_time_ms_bucket{le="+Inf"} 1312.0
 hydra_head_tx_confirmation_time_ms_sum  49359.536290999946
 hydra_head_tx_confirmation_time_ms_count  1312
 ```
+
+This says that almost all the snapshots were signed within 100 milliseconds
+(i.e. 0.1 of a second).
